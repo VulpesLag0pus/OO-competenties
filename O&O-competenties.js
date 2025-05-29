@@ -3,7 +3,6 @@ function resize(elementId) {
     console.log(width);
     document.documentElement.style.setProperty(`--${elementId}`, width + 'px');
 }
-import { Analytics } from "@vercel/analytics/next"
 resize('page_1');
 resize('page_2');
 resize('page_3');
